@@ -1,17 +1,12 @@
 # battleship
-battleship board game using curses in Python
+Battleship Board Game Using Curses in Python
 
-This is a game project in Python based on the classical board game of the same name. 
-Read about it here - https://en.wikipedia.org/wiki/Battleship_(game)
+This is a Python-based project inspired by the classic board game Battleship. You can read more about the original game here: https://en.wikipedia.org/wiki/Battleship_(game).
 
-I made this project using curses library in Python. Basically curses enables us to give the user a GUI inside the terminal.
-Read more here - https://docs.python.org/3/howto/curses.html
+In this project, I've used the curses library to create a graphical user interface (GUI) within a text-based environment. The curses library allows for creating text-based user interfaces in such environments. You can learn more about curses here: https://docs.python.org/3/howto/curses.html.
 
-I have used Object oriented programming to make this project. Player, Coordinate and Ship are the three classes in my project.
+I've implemented the game using Object-Oriented Programming (OOP), with three main classes: Player, Coordinate, and Ship.
 
-I have used argparse to parse the command line arguments so that the user can specify the number of rows and columns in the game as command line arguments like this-
-python battleship.py <number of columns> <number of rows>
-For example-
+Additionally, I've incorporated the argparse module to handle command-line arguments, allowing users to specify the number of rows and columns for the game board. For example, you can start the game with a 5x5 grid by running the following command:
+
 python battleship.py 5 5
-
-Please note that this does not run properly inside VS Code integrated terminal, so you need to run it inside a stand alone termnial like the inbuilt terminals on Winodows and Linux.
